@@ -1,0 +1,151 @@
+.section{
+
+    &__items, &__pages{
+        margin: 10px;
+    }
+
+    &__full{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #252B42;
+        text-decoration: none;
+    }
+
+    &__link{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #1BA0AB;
+        text-decoration: none;
+    }
+    &__name{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #252B42
+    }
+    &__text, &__names, &__first{
+        text-decoration: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #737373;
+    }
+
+    &__cost{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #F69B25;
+    }
+
+    &__btn{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #1BA0AB;
+        width: 120px;
+        height: 45px;
+        border: 2px solid #1BA0AB;
+        border-radius: 20px;
+    }
+}
+
+.section__page{
+    display: flex;
+}
+
+.section__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
+.section__lists, .section__title{
+    list-style: none;
+}
+
+.section__box{
+    list-style: none;
+    padding-top: 50px;
+}
+
+@media (max-width:1160px){
+    .container{
+        width: 1000px;
+    }
+    .section__pic{
+        height: 320px;
+        width: 300px;
+    }
+}
+
+@media (max-width:1020px){
+    .container{
+        width: 900px;
+    }
+    .section__items{
+        margin: 8px;
+    }
+    .section__text{
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
+@media (max-width:920px){
+    .container{
+        width: 800px;
+    }
+    .section__list{
+        flex-direction:column;
+        margin: 20px;
+        align-items: center;
+    }
+    .section__page{
+        margin: 20px;
+    }
+    .section__pic{
+        width: 180px;
+        height: 300px;
+    }
+    .section__box{
+        text-align: center;
+    }
+}
+@media (max-width:720px) {
+    .container{
+        width: 600px;
+    }
+    .section__full{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width:620px) {
+    .container{
+        width: 500px;
+    }
+    .section__btn{
+        width: 100px;
+    }
+    .section__page{
+        margin: 10px;
+    }
+    .section__pic{
+        width: 150px;
+        height: 350px;
+    }
+    .section__text{
+        align-items: center;
+    }
+}

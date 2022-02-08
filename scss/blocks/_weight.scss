@@ -1,0 +1,133 @@
+.weight{
+    padding-top:50px;
+
+    &-item{
+        margin: 10px;
+    }
+
+    &-link{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        color: #1BA0AB;
+        text-decoration: none;
+    }
+
+    &-name{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        color: #252B42;
+        text-decoration: none;
+    }
+
+    &-text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #737373;
+        text-decoration: none;
+    }
+    &-names{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #252B42;
+        text-decoration: none;
+    }
+
+
+    &-title{
+       text-align: center;
+       margin: 10px;
+    }
+    &-items{
+        margin: 10px;
+    }
+    &-pic{
+        border-radius: 20px 20px 0px 0px;
+    }
+}
+.weight-list, .weight_list{
+    list-style: none;
+}
+.weight-page{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.weight-lists{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    margin-right: 40px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+@media (max-width:1020px){
+    .container{
+        width: 900px;
+    }
+    .weight-pic{
+        width: 150px;
+    }
+    .weight-title{
+        margin: 0px;
+    }
+}
+@media (max-width:920px){
+    .container{
+        width:800px;
+    }
+    .weight-page{
+        flex-wrap: wrap;
+        margin: 50px;
+        justify-content: center;
+    }
+    .weight-pic{
+        width: 170px;
+        height: 200px;
+    }
+    .weight-lists{
+        margin: 20px;
+        box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.07);
+        padding-left: 10px;
+    }
+    .weight-list{
+        text-align: center;
+    }
+}
+
+@media (max-width:820px) {
+    .container{
+        width: 700px;
+    }
+    .weight-page{
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    .weight-pic{
+        width: 150px;
+        height: 180px;
+    }
+}
+@media (max-width:620px) {
+    .container{
+        width: 500px;
+    }
+    .weight-list{
+        width: 270px;
+    }
+    .weight-name{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .weight_list{
+        text-align: center;
+    }
+}
